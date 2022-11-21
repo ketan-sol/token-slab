@@ -1,0 +1,5 @@
+Mapped the deposit tokens with the respective caller address.
+
+Used if-else instead of for loop for gas optimization
+
+Minted exact 1500 tokens for ease of testing deposit in each slab.
