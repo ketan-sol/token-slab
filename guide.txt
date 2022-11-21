@@ -1,0 +1,23 @@
+Smart contract to deposit token to different slabs.
+
+Deployed on Polygon Test Network.
+
+Polygon Test Net -  https://mumbai.polygonscan.com/
+		
+		Tx hash = 0xa311e05801eb3022c90bc9ae7408f7b8620408f9609932c3f4b96c6d8ecf6d5a
+		Contract address = 0x87b7b598d38115c75231faefd7c0ecb39ec903ae
+
+
+Test functions by deploying again or interacting with deployed contract.
+
+On successful Deployment, we wil get multiple functions in Remix ide 
+check
+total supply = 15 * 10**18,
+owner = deployer address.
+
+To test use case we will use three main functions:
+
+deposit = deposits the input amount in the slab 5 by default if slab is not full. (max = 500)
+totalDeposit  = It gives the total tokens present in the slabs.
+getTokenSlab = get slabs in which you tokens are present by just providing your address.
+
